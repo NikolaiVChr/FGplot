@@ -1,0 +1,16 @@
+<!--This is the xml part for testing, somewhere in your menubar.xml
+maby you need to create/modify a translation too.
+-->
+
+
+               <item>
+                        <name>graph</name>
+                        <binding>
+                                <command>nasal</command>
+                                <script>
+                                    <!-- a will be overwritten each call -->
+                                    var a = plot.Fgp.new(600,201,0).init();
+                                </script>
+                        </binding>
+                </item>
+
